@@ -95,14 +95,14 @@ assertions:
 ## ImplementationStrategy
 
 implementation_strategy:
-  approach: walking_skeleton
-  steps:
+  - approach: walking_skeleton
+  - steps:
     - setup_nextjs_project: true
     - confirm_hello_world: true
     - fetch_mock_data_from_spreadsheet: true
     - render_mock_data_on_frontend: true
-  expansion_model: vertical_slice
-  notes:
+  - expansion_model: vertical_slice
+  - notes:
     - start with minimum functional flow
     - each slice includes data layer, logic layer, ui layer
     - ignore edge cases in early stage
